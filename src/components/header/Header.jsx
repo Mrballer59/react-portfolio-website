@@ -4,13 +4,13 @@ import CTA from "./CTA";
 import Me from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
 
-const header = () => {
+const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
+        <h4>Hello I'm</h4>
         <h1>Brandon JOSEPH RAMIREZ</h1>
-        <h5 className="text-light">FrontEnd Developer</h5>
+        <h4 className="text-light">Frontend Developer</h4>
         <CTA />
         <HeaderSocials />
         <div className="me">
@@ -24,4 +24,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;

@@ -12,8 +12,10 @@ const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <HiBadgeCheck className="experience__details-icon" />
-              <h4>HTML</h4>
-              <small className="text-light">Experienced</small>
+              <div>
+                <h4>HTML</h4>
+                <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <HiBadgeCheck className="experience__details-icon" />
@@ -40,7 +42,7 @@ const Experience = () => {
               <HiBadgeCheck className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Good Understanding</small>
               </div>
             </article>
           </div>

@@ -27,18 +27,17 @@ export const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Client</h5>
-              <small>50+ WorldWide</small>
+              <small>10+ WorldWide</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ completed Projects </small>
+              <small>15+ completed Projects </small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-            inventore magni at iusto quasi maiores. Incidunt, est. Illum facilis
-            aliquid amet velit voluptate eum placeat.
+            Hey there, a young hungry frontEnd dev here ready to learn and get
+            more experience under my belt.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
