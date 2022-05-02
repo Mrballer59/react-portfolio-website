@@ -25,18 +25,18 @@ const Footer = () => {
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#testimonials">Testimonials</a>
-        </li>
+        </li> */}
         <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https//facebook.com">
+        <a href="https://facebook.com" target="_blank">
           <FaFacebookF />
         </a>
-        <a href="https//instagram.com">
+        <a href="https://instagram.com" target="_blank">
           <FiInstagram />
         </a>
       </div>
