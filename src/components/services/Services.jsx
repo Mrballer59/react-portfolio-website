@@ -15,7 +15,7 @@ const services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Create stunning dynamic mockups on Figma</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -39,15 +39,15 @@ const services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Beautiful responsive web and mobile application.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Amazing landing pages with Wordpress</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Ecommerce web and mobile app</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -63,15 +63,15 @@ const services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Experience photographer 4 years practing with a DSLR.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Editing and creating videos for social media.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Photoshop lightroom and adobe premiere pro.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
