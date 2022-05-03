@@ -45,6 +45,13 @@ const Experience = () => {
                 <small className="text-light">Good Understanding</small>
               </div>
             </article>
+            <article className="experience__details">
+              <HiBadgeCheck className="experience__details-icon" />
+              <div>
+                <h4>Wordpress</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
         <div className="experience__backend">
