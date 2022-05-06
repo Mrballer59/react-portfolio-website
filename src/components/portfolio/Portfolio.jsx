@@ -11,8 +11,8 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Something about the project",
-    github: "https://github.com",
-    demo: "https://github.com",
+    github: "https://github.com/Mrballer59/BrandonJOSEPHRAMIREZ_6_10012022",
+    demo: "https://mrballer59.github.io/BrandonJOSEPHRAMIREZ_6_10012022/",
   },
   {
     id: 2,
