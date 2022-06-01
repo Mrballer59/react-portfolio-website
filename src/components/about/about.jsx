@@ -27,7 +27,7 @@ export const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Client</h5>
-              <small>10+ WorldWide</small>
+              <small>5+ WorldWide</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -36,8 +36,8 @@ export const About = () => {
             </article>
           </div>
           <p>
-            Hey there, a young hungry frontEnd dev here ready to learn and get
-            more experience under my belt.
+            Hey there, I'm a young hungry frontend developer here ready to learn
+            and get more experience under my belt.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
