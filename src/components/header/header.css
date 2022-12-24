@@ -69,3 +69,6 @@ header {
     display: none;
   }
 }
+.photologo {
+  border-radius: 5%;
+}
