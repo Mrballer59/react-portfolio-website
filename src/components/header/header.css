@@ -9,6 +9,7 @@ header {
   position: relative;
 }
 /* === CTA === */
+/* We need to fix the header part and put a normal photo */
 .cta {
   margin: 2.5rem;
   display: flex;
