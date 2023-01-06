@@ -2,13 +2,27 @@ import React from "react";
 import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
-        My logo
-      </a>
+      <a href="#" className="footer__logo"></a>
+      <div className="footer__socials">
+        <a href="https://github.com/Mrballer59" target="_blank">
+          <FaGithub />
+        </a>
+        <a href="https://instagram.com/brandon.josephr/" target="_blank">
+          <FiInstagram />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/brandon-joseph-ramirez-web-dev/"
+          target="_blank"
+        >
+          <BsLinkedin />
+        </a>
+      </div>
       <ul className="permalinks">
         <li>
           <a href="#">Home</a>
@@ -32,14 +46,20 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className="footer__socials">
-        <a href="https://facebook.com" target="_blank">
-          <FaFacebookF />
+      {/* <div className="footer__socials">
+        <a href="https://github.com/Mrballer59" target="_blank">
+          <FaGithub />
         </a>
-        <a href="https://instagram.com" target="_blank">
+        <a href="https://instagram.com/brandon.josephr/" target="_blank">
           <FiInstagram />
         </a>
-      </div>
+        <a
+          href="https://www.linkedin.com/in/brandon-joseph-ramirez-web-dev/"
+          target="_blank"
+        >
+          <BsLinkedin />
+        </a>
+      </div> */}
       <div className="footer__copyright">
         <small>&copy; Brandon Joseph R. All rights reserved</small>
       </div>
