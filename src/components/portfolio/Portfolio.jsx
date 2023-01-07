@@ -4,8 +4,8 @@ import IMG1 from "../../assets/FishEye.png";
 import IMG2 from "../../assets/Petit plat.png";
 import IMG3 from "../../assets/Hrnet.png";
 import IMG4 from "../../assets/argentbank.png";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG5 from "../../assets/morpheus.png";
+import IMG6 from "../../assets/figmaLanding.png";
 const data = [
   {
     id: 1,
@@ -17,7 +17,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "Petits plats (search, algorithm)",
+    title: "Petits plats search, algorithm",
     github: "https://github.com/Mrballer59/BrandonJOSEPHRAMIREZ_7_07032022",
     demo: "https://mrballer59.github.io/BrandonJOSEPHRAMIREZ_7_07032022/",
   },
@@ -33,23 +33,25 @@ const data = [
     id: 4,
     image: IMG4,
     title: "Something about the project",
+    // subTitle: "Technology used: React Redux toolkit",
     github: "https://github.com/Mrballer59/BrandonJosephRamirez_13_22092022",
     demo: "https://argentbank-brandon-jr.vercel.app/",
   },
   {
     id: 5,
     image: IMG5,
-    title: "Something about the project",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Morpheus String Company B2B project (En cours)",
+    // subTitle: "Technology used: React",
+    github: "https://github.com/Mrballer59/pj-violin",
+    demo: "https://morpheus-strings-v1-demo.netlify.app/",
   },
   {
     id: 6,
     image: IMG6,
-    title: "Something about the project",
-    subTitle: "technolgy used",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "UI & UX project a online learing platform",
+    // subTitle: "Technology used: Figma",
+    github: "https://github.com/Mrballer59",
+    demo: "https://www.figma.com/proto/lamfNQqAjkziv77XUhdPRz/Learn%40Home-Project?node-id=67%3A1186&starting-point-node-id=67%3A1186",
   },
 ];
 
@@ -66,7 +68,7 @@ const Portfolio = () => {
                 <img src={image} alt={title} />
               </div>
               <h3>{title}</h3>
-              <h4>{subTitle}</h4>
+              <h4 className="sub_title">{subTitle}</h4>
               <div className="portfolio__item-cta">
                 <a href={github} className="btn" target="_blank">
                   Github

@@ -28,6 +28,12 @@
   gap: 1rem;
   margin-bottom: 1rem;
 }
+.sub_title {
+  font-size: 0.9rem;
+}
+.sub_title {
+  font-weight: lighter;
+}
 
 /* Media Queries Medium Devices */
 @media screen and (max-width: 1024px) {
