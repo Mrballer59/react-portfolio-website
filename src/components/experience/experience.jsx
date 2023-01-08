@@ -42,13 +42,13 @@ const Experience = () => {
               <HiBadgeCheck className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Good Understanding</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <HiBadgeCheck className="experience__details-icon" />
               <div>
-                <h4>Wordpress</h4>
+                <h4>UI/ UX Design</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -81,7 +81,7 @@ const Experience = () => {
             <article className="experience__details">
               <HiBadgeCheck className="experience__details-icon" />
               <div>
-                <h4>Python</h4>
+                <h4>Docker</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
