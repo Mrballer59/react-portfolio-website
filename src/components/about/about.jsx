@@ -36,8 +36,8 @@ export const About = () => {
             </article>
           </div>
           <p>
-            Hey there, I'm a young hungry frontend developer here ready to learn
-            and get more experience under my belt.
+            Hello there, I'm a young hungry for succes frontend developer here
+            ready to learn and get more experience under my belt.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

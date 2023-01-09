@@ -48,7 +48,7 @@ const Experience = () => {
             <article className="experience__details">
               <HiBadgeCheck className="experience__details-icon" />
               <div>
-                <h4>UI/ UX Design</h4>
+                <h4>UX/UI Design</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -60,14 +60,14 @@ const Experience = () => {
             <article className="experience__details">
               <HiBadgeCheck className="experience__details-icon" />
               <div>
-                <h4>Node JS</h4>
+                <h4>Node.js</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <HiBadgeCheck className="experience__details-icon" />
               <div>
-                <h4>MySQL</h4>
+                <h4>Express.js</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
@@ -83,6 +83,20 @@ const Experience = () => {
               <div>
                 <h4>Docker</h4>
                 <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <HiBadgeCheck className="experience__details-icon" />
+              <div>
+                <h4>Mongoose</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <HiBadgeCheck className="experience__details-icon" />
+              <div>
+                <h4>CMS Strapi</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>

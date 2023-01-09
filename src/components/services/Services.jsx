@@ -19,27 +19,32 @@ const services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Designing Mobile apps interface</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>
+                Best design and prototyping practices for the best user
+                experience
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Create trendy eye catching design</p>
             </li>
           </ul>
         </article>
         {/* End Of UI/UX */}
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Web & Mobile Development</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Beautiful responsive web and mobile application.</p>
+              <p>
+                Beautiful responsive web and mobile application using React.js.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -47,11 +52,11 @@ const services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Ecommerce web and mobile app</p>
+              <p>Ecommerce web and mobile app using CMS Strapi as backend</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Fast optimize aplications using Next.js </p>
             </li>
           </ul>
         </article>
@@ -63,7 +68,7 @@ const services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Experience photographer 4 years practing with a DSLR.</p>
+              <p> Photography experience 4 years of using a DSLR.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -75,7 +80,7 @@ const services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Content management and community manager</p>
             </li>
           </ul>
         </article>
