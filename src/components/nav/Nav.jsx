@@ -5,6 +5,7 @@ import { BiUserCircle } from "react-icons/bi";
 import { FiBook } from "react-icons/fi";
 import { FaRegHandshake } from "react-icons/fa";
 import { MdOutlineMessage } from "react-icons/md";
+import { RiMacLine } from "react-icons/ri";
 import { useState } from "react";
 
 const Nav = () => {
@@ -19,13 +20,7 @@ const Nav = () => {
       >
         <AiOutlineHome />
       </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
-        <BiUserCircle />
-      </a>
+
       <a
         href="#experience"
         onClick={() => setActiveNav("#experience")}
@@ -39,6 +34,13 @@ const Nav = () => {
         className={activeNav === "#services" ? "active" : ""}
       >
         <FaRegHandshake />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <RiMacLine />
       </a>
       <a
         href="#contact"

@@ -3,19 +3,33 @@ import "./header.css";
 import CTA from "./CTA";
 import Me from "../../assets/funnyphotoTest.jpg";
 import HeaderSocials from "./HeaderSocials";
+import Typical from "react-typical";
 
 const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h4>Hi There, I'm</h4>
-        <h1>Brandon JOSEPH RAMIREZ</h1>
-        <h4 className="text-light">Frontend Developer</h4>
+        <h4 className="top_title">Hey,{""} I'm</h4>
+        <h1>Brandon JR</h1>
+        <h4 className="h4">
+          I'm a {""}
+          <Typical
+            loop={500}
+            wrapper="b"
+            steps={[
+              "Frontend Developer 🖥",
+              1000,
+              "UX/UI Lover 💙",
+              1000,
+              "Node.js Student 👨🏾‍💻",
+              1000,
+              "React Native SuperFan 🤩",
+              1000,
+            ]}
+          />
+        </h4>
         <CTA />
         <HeaderSocials />
-        <div className="me">
-          <img className="photologo" src={Me} alt="me" />
-        </div>
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
