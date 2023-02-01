@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/FishEye.png";
+import IMG1 from "../../assets/mrniceguy.png";
 import IMG2 from "../../assets/Petit plat.png";
 import IMG3 from "../../assets/Hrnet.png";
 import IMG4 from "../../assets/argentbank.png";
@@ -10,14 +10,14 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "First Vanilla JS photographer project",
-    github: "https://github.com/Mrballer59/BrandonJOSEPHRAMIREZ_6_10012022",
-    demo: "https://mrballer59.github.io/BrandonJOSEPHRAMIREZ_6_10012022/",
+    title: "E-commerce wordpress MrNiceGuy Lille Co-Founder ",
+    github: "https://github.com/Mrballer59",
+    demo: "http://mrniceguyfleur.com",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Petits plats search, algorithm",
+    title: "Petits plats, search algorithm project ",
     github: "https://github.com/Mrballer59/BrandonJOSEPHRAMIREZ_7_07032022",
     demo: "https://mrballer59.github.io/BrandonJOSEPHRAMIREZ_7_07032022/",
   },
@@ -32,7 +32,7 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: "Something about the project",
+    title: "React & Redux toolkit authentication bank project ",
     // subTitle: "Technology used: React Redux toolkit",
     github: "https://github.com/Mrballer59/BrandonJosephRamirez_13_22092022",
     demo: "https://argentbank-brandon-jr.vercel.app/",
@@ -48,7 +48,8 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title: "UI & UX project a online learing platform",
+    title:
+      "UI & UX project an online children learing platform for a school     ",
     // subTitle: "Technology used: Figma",
     github: "https://github.com/Mrballer59",
     demo: "https://www.figma.com/proto/lamfNQqAjkziv77XUhdPRz/Learn%40Home-Project?node-id=67%3A1186&starting-point-node-id=67%3A1186",
@@ -65,7 +66,7 @@ const Portfolio = () => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+                <img className="img__part" src={image} alt={title} />
               </div>
               <h3>{title}</h3>
               <h4 className="sub_title">{subTitle}</h4>

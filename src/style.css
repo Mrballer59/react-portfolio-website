@@ -41,7 +41,7 @@ h1 {
   font-size: 2.5rem;
 }
 section {
-  margin-top: 8rem;
+  margin-top: 7rem;
   /* height: 70vh; */
 }
 section > h2,
@@ -93,7 +93,7 @@ img {
     width: var(--container-width-md);
   }
   section {
-    margin-top: 6rem;
+    margin-top: 4.5rem;
   }
 }
 /* Media Queries Small Devices */

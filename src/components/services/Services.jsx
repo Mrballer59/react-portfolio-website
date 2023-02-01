@@ -48,7 +48,7 @@ const services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Amazing landing pages with Wordpress</p>
+              <p>Stunning landing pages with Wordpress</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />

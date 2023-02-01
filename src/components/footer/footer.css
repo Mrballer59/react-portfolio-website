@@ -1,5 +1,6 @@
 footer {
   background: var(--color-primary);
+  opacity: 79%;
   padding: 3rem;
   text-align: center;
   font-size: 0.9rem;

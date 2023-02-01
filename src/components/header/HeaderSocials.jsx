@@ -9,10 +9,10 @@ const HeaderSocials = () => {
         href="https://www.linkedin.com/in/brandon-joseph-ramirez-web-dev/"
         target="_blank"
       >
-        <BsLinkedin />
+        <BsLinkedin size={"1.5em"} />
       </a>
       <a href="https://github.com/Mrballer59" target="_blank">
-        <FaGithub />
+        <FaGithub size={"1.5em"} />
       </a>
     </div>
   );

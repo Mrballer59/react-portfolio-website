@@ -26,7 +26,7 @@ export const About = () => {
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Client</h5>
+              <h5>Clients</h5>
               <small>5+ WorldWide</small>
             </article>
             <article className="about__card">
@@ -36,8 +36,13 @@ export const About = () => {
             </article>
           </div>
           <p>
-            Hello there, I'm a young hungry for succes frontend developer here
-            ready to learn and get more experience under my belt.
+            I'm a Highly motivated and passionate Frontend Developer with
+            experience in HTML, CSS, JavaScript, & React. Currently learning
+            Node.js and React Native to expand skill set and build modern,
+            stunning, fast applications. I'm quick learner with a strong desire
+            to stay up-to-date with the latest technologies and trends.
+            Dedicated to delivering user-friendly, visually appealing, and
+            functional applications. Want to work together ?
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

@@ -34,6 +34,10 @@
 .sub_title {
   font-weight: lighter;
 }
+/* .img__part {
+  height: 13rem;
+  width: 13rem;
+} */
 
 /* Media Queries Medium Devices */
 @media screen and (max-width: 1024px) {

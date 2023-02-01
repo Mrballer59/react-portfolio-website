@@ -1,5 +1,5 @@
 header {
-  height: 35vh;
+  height: 45vh;
   padding-top: 5rem;
   overflow: hidden;
 }
@@ -11,7 +11,7 @@ header {
 /* === CTA === */
 /* We need to fix the header part and put a normal photo */
 .cta {
-  margin: 2.5rem;
+  margin: 1.2rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -28,8 +28,8 @@ header {
 }
 .header__socials::after {
   content: "";
-  width: 1px;
-  height: 2rem;
+  width: 2px;
+  height: 2.5rem;
   background: var(--color-primary);
 }
 /* === Me === */
@@ -55,7 +55,8 @@ header {
 }
 .h4 {
   color: rgb(151, 150, 187);
-  padding: 1.5rem;
+  padding: 1.3rem;
+  font-size: 1.1rem;
 }
 .top_title {
   font-size: 1.5rem;
@@ -63,14 +64,14 @@ header {
 /* Media Queries Medium Devices */
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 30vh;
   }
 }
 
 /* Media Queries Small Devices */
 @media screen and (max-width: 600px) {
   header {
-    height: 35vh;
+    height: 40vh;
   }
   .header__socials,
   .scroll__down {

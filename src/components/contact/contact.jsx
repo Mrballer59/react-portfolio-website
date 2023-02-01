@@ -42,8 +42,11 @@ const Contact = () => {
           <article className="contact__option">
             <BsLinkedin className="contact__option-icon" />
             <h4>Linked In </h4>
-            <h5>just in case you didn't see it above</h5>
-            <a href="https://linkedin.com/" target={"_blank"}>
+            <h5>Just in case you didn't see it above 😎</h5>
+            <a
+              href="https://linkedin.com/in/brandon-josephr-dev/"
+              target={"_blank"}
+            >
               Check it out
             </a>
           </article>

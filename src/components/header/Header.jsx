@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import Me from "../../assets/funnyphotoTest.jpg";
+
 import HeaderSocials from "./HeaderSocials";
 import Typical from "react-typical";
 
@@ -9,7 +9,9 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h4 className="top_title">Hey,{""} I'm</h4>
+        <h4 className="top_title">
+          Hey there, {""} {""} I'm
+        </h4>
         <h1>Brandon JR</h1>
         <h4 className="h4">
           I'm a {""}
@@ -23,7 +25,7 @@ const Header = () => {
               1000,
               "Node.js Student 👨🏾‍💻",
               1000,
-              "React Native SuperFan 🤩",
+              "React Native admirer 🤩",
               1000,
             ]}
           />
