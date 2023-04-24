@@ -10,7 +10,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "E-commerce wordpress MrNiceGuy Lille Co-Founder ",
+    title: "E-commerce wordpress MrNiceGuy Lille",
     github: "https://github.com/Mrballer59",
     demo: "http://mrniceguyfleur.com",
   },
