@@ -43,7 +43,7 @@ const data = [
     title: "Morpheus String Company B2B project (En cours)",
     // subTitle: "Technology used: React",
     github: "https://github.com/Mrballer59/pj-violin",
-    demo: "https://morpheus-strings-v1-demo.netlify.app/",
+    demo: "https://morpheusstrings.com/",
   },
   {
     id: 6,
